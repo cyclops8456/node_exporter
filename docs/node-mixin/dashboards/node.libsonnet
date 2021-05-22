@@ -4,7 +4,7 @@ local row = grafana.row;
 local prometheus = grafana.prometheus;
 local template = grafana.template;
 local graphPanel = grafana.graphPanel;
-local promgrafonnet = import 'github.com/kubernetes-monitoring/kubernetes-mixin/lib/promgrafonnet/promgrafonnet.libsonnet';
+local promgrafonnet = import 'github.com/cyclops8456/kubernetes-mixin/lib/promgrafonnet/promgrafonnet.libsonnet';
 local gauge = promgrafonnet.gauge;
 
 {
